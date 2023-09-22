@@ -45,7 +45,7 @@ def create_flare_json(df):
 def create_hotspot_file(hotspots, color_column_name, size_column_name, separator):
     json_data = create_flare_json(create_plot_data(hotspots, color_column_name, size_column_name,separator))
             
-    with open("d3/template_hierarchical_d3_inline.html") as html_template:
+    with open("vis/template_hierarchical_d3_inline.html") as html_template:
         html = html_template.read().replace("###FLARE_JSON###", str(json_data))
         
         os.makedirs("output", exist_ok=True)
