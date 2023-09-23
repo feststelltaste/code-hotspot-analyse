@@ -2,3 +2,4 @@
 # Especially useful when running the notebooks with mybinder.org
 pandas
 matplotlib
+RISE
