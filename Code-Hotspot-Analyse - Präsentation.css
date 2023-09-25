@@ -1,0 +1,62 @@
+b,
+i,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {font-family: Open Sans; !important }
+
+strong {color: #cccccc;}
+
+body, .reveal {
+	font-family: Open Sans;
+  zoom: 150%;
+}
+
+.slide-number-a,
+.slide-number-delimiter,
+.slide-number-b
+{
+	color: rgb(0, 0, 0, 0);
+}
+
+.rendered_html code {
+    background-color: #fff;
+}
+
+td,th {
+	font-size: 18px;
+}
+
+.rendered_html h2:first-child {
+    margin-top: 0em;
+}
+.rendered_html h3:first-child {
+    margin-top: 0em;
+}
+.rendered_html h3:first-child {
+    margin-top: 0em;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.petrol {color: #004153;}
+.apricot {color: #FF9C66;}
