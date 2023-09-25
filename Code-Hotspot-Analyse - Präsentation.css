@@ -14,11 +14,9 @@ h6,
 .reveal h5,
 .reveal h6 {font-family: Open Sans; !important }
 
-strong {color: #cccccc;}
-
 body, .reveal {
 	font-family: Open Sans;
-  zoom: 150%;
+  zoom: 125%;
 }
 
 .slide-number-a,
